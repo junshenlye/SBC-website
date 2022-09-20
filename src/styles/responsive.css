@@ -1,0 +1,570 @@
+/* =========================================================================================================*/
+
+
+/* ======================================MOBILE RESPONSIVE STYLES===========================================*/
+
+
+/* =========================================================================================================*/
+
+@media only screen and (min-width: 300px) and (max-width: 350px) {
+    /* HEADER ======================================== */
+    .header {
+        padding-top: 100px;
+        height: fit-content;
+    }
+    .header-row {
+        height: fit-content;
+    }
+    .header-left {
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+    }
+    .glitch {
+        font-size: 4.5rem;
+        letter-spacing: 0.3rem;
+        text-align: center;
+        z-index: 20;
+    }
+    .header-left h3 {
+        text-align: center;
+        font-size: 18px;
+        z-index: 20;
+    }
+    .download-btn {
+        font-weight: 400;
+        font-size: 9px;
+        letter-spacing: 1px;
+        padding: 20px;
+        margin: 30px 0px;
+    }
+    .logo {
+        height: 60px;
+        padding-right: 0px;
+    }
+    .logo-text,
+    .logo-text:hover {
+        font-size: 15px;
+        line-height: 0px;
+    }
+    .nav-hamburger {
+        margin: 27px auto auto 40px;
+        display: block;
+    }
+    .mobile-nav ul {
+        margin-top: 0px;
+    }
+    .mobile-nav ul>li {
+        margin: 25px 0px;
+    }
+    /* ABOUT ========================================= */
+    .about {
+        padding: 0px 30px 0px 30px;
+        margin-top: 150px;
+    }
+    .about-area-left {
+        padding: 0px;
+    }
+    .about h1 {
+        font-size: 4rem;
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 35px;
+    }
+    .about p {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 30px;
+        text-align: center;
+        padding: 0px 15px;
+    }
+    /* ROADMAP  ====================================== */
+    .roaddmap {
+        padding-top: 100px;
+    }
+    .roaddmap h1 {
+        font-size: 3rem;
+    }
+    .container-roadmap {
+        padding: 0px 0;
+        margin: 0px 0x 50px 0px;
+    }
+    /* OUR TEAM ====================================== */
+    .team {
+        padding: 90px 30px 30px 30px;
+    }
+    .team h1 {
+        font-size: 2.5rem;
+        margin-top: 20px;
+    }
+    .team-wrap {
+        padding: 0 40px;
+        margin-bottom: 50px;
+    }
+    .team-img img {
+        width: 80%;
+    }
+    /* FAQ  ========================================== */
+    .faq {
+        padding: 96px 30px;
+        margin: 0px;
+    }
+    .faq h1 {
+        font-size: 4rem;
+    }
+    summary {
+        font-size: 14px;
+    }
+    details {
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+    .details-expanded {
+        padding: 1rem;
+    }
+    .details-expanded p {
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+    /* FOOTER ======================================== */
+    .footer {
+        clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
+        padding-top: 0px;
+    }
+    .footer h1 {
+        font-size: 2.5rem;
+        margin-bottom: 40px;
+    }
+    .footer h3 {
+        font-size: 1rem;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    .footer-top {
+        height: auto;
+        margin: 150px auto 0px auto;
+    }
+    .footer-social-link {
+        width: 275px;
+        height: 70px;
+        font-size: 12px;
+        margin: 10px 30px;
+    }
+    .footer-social-link i {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 576px) {
+    /* HEADER ======================================== */
+    .header {
+        padding-top: 100px;
+        height: fit-content;
+    }
+    .header-row {
+        height: fit-content;
+    }
+    .header-left {
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+    }
+    .glitch {
+        font-size: 3.5rem;
+        letter-spacing: 0.3rem;
+        text-align: center;
+        z-index: 20;
+        padding: 0px 20px;
+    }
+    .glitch::after {
+        padding: 0px 20px;
+    }
+    .header-left h3 {
+        text-align: center;
+        font-size: 18px;
+        z-index: 20;
+        padding: 0px 30px;
+    }
+    .download-btn {
+        font-weight: 400;
+        font-size: 9px;
+        letter-spacing: 1px;
+        padding: 20px;
+        margin: 30px 0px;
+    }
+    .logo {
+        height: 60px;
+        padding-right: 0px;
+    }
+    .logo-text,
+    .logo-text:hover {
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    .nav-hamburger {
+        margin: 27px 16px auto 40px;
+        display: block;
+    }
+    .mobile-nav ul {
+        margin-top: 0px;
+    }
+    .mobile-nav ul>li {
+        margin: 35px 0px;
+    }
+    /* ABOUT ========================================= */
+    .about {
+        padding: 30px 30px 0px 30px;
+        margin-top: 50px;
+    }
+    .about-area-left {
+        padding: 0px;
+    }
+    .about h1 {
+        font-size: 4rem;
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 35px;
+    }
+    .about p {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 30px;
+        text-align: center;
+        padding: 0px 15px;
+    }
+    /* ROADMAP  ====================================== */
+    .roaddmap {
+        padding-top: 100px;
+    }
+    .container-roadmap {
+        padding: 0px 0;
+        margin: 0px 0x 50px 0px;
+    }
+    .roaddmap h1 {
+        font-size: 3rem;
+    }
+    /* OUR TEAM ====================================== */
+    .team {
+        padding: 90px 30px 30px 30px;
+    }
+    .team h1 {
+        font-size: 2.5rem;
+        margin-top: 20px;
+    }
+    .team-wrap {
+        padding: 0 40px;
+        margin-bottom: 50px;
+    }
+    .team-img img {
+        width: 80%;
+    }
+    /* FAQ  ========================================== */
+    .faq {
+        padding: 96px 30px;
+        margin: 0px;
+    }
+    .faq h1 {
+        font-size: 4rem;
+    }
+    summary {
+        font-size: 14px;
+    }
+    details {
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+    .details-expanded {
+        padding: 1rem;
+    }
+    .details-expanded p {
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+    /* FOOTER ====================================== */
+    .footer {
+        clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
+        padding-top: 0px;
+    }
+    .footer h1 {
+        font-size: 2.5rem;
+        margin-bottom: 40px;
+    }
+    .footer h3 {
+        font-size: 1rem;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    .footer-top {
+        height: auto;
+        margin: 150px auto 0px auto;
+    }
+    .footer-social-link {
+        width: 275px;
+        height: 70px;
+        font-size: 12px;
+        margin: 10px 30px;
+    }
+    .footer-social-link i {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    /* HEADER ======================================== */
+    .header {
+        padding-top: 100px;
+        height: fit-content;
+    }
+    .header-row {
+        height: fit-content;
+    }
+    .header-left {
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+    }
+    .glitch {
+        font-size: 3.5rem;
+        letter-spacing: 0.3rem;
+        text-align: center;
+        z-index: 20;
+        padding: 0px 20px;
+    }
+    .glitch::after {
+        padding: 0px 20px;
+    }
+    .header-left h3 {
+        text-align: center;
+        font-size: 18px;
+        z-index: 20;
+        padding: 0px 30px;
+    }
+    .download-btn {
+        font-weight: 400;
+        font-size: 9px;
+        letter-spacing: 1px;
+        padding: 20px;
+        margin: 30px 0px;
+    }
+    .logo {
+        height: 60px;
+        padding-right: 0px;
+    }
+    .logo-text,
+    .logo-text:hover {
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    .nav-hamburger {
+        margin: 27px 16px auto 40px;
+        display: block;
+    }
+    .mobile-nav ul {
+        margin-top: 0px;
+    }
+    .mobile-nav ul>li {
+        margin: 35px 0px;
+    }
+    /* ABOUT ========================================= */
+    .about {
+        padding: 100px 30px 0px 30px;
+        margin-top: 50px;
+    }
+    .about-area-left {
+        padding: 0px;
+    }
+    .about h1 {
+        font-size: 4rem;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 15px;
+    }
+    .about p {
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 20px;
+        text-align: center;
+        padding: 0px 15px;
+    }
+    /* ROADMAP  ====================================== */
+    .roaddmap {
+        padding-top: 50px;
+    }
+    .container-roadmap {
+        padding: 0px 0;
+        margin: 0px 0x 50px 0px;
+    }
+    .roaddmap h1 {
+        font-size: 3rem;
+    }
+    /* OUR TEAM ====================================== */
+    .team {
+        padding: 30px 50px;
+    }
+    .team h1 {
+        font-size: 2.5rem;
+        margin-top: 20px;
+    }
+    .team-wrap {
+        padding: 0 40px;
+        margin-bottom: 50px;
+    }
+    .team-img img {
+        width: 100%;
+    }
+    /* FAQ  ========================================== */
+    .faq {
+        padding: 96px 30px;
+    }
+    .faq h1 {
+        font-size: 4rem;
+    }
+    summary {
+        font-size: 14px;
+    }
+    details {
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+    .details-expanded {
+        padding: 1rem;
+    }
+    .details-expanded p {
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+    /* FOOTER ====================================== */
+    .footer {
+        clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
+        padding-top: 0px;
+    }
+    .footer h1 {
+        font-size: 2.5rem;
+        margin-bottom: 40px;
+    }
+    .footer h3 {
+        font-size: 1rem;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    .footer-top {
+        height: auto;
+        margin: 150px auto 0px auto;
+    }
+    .footer-social-link {
+        width: 275px;
+        height: 70px;
+        font-size: 12px;
+        margin: 10px 30px;
+    }
+    .footer-social-link i {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 920px) {
+    /* HEADER ======================================== */
+    .header {
+        padding-top: 100px;
+        height: fit-content;
+    }
+    .header-row {
+        height: fit-content;
+    }
+    .header-left {
+        align-items: flex-start;
+        justify-content: center;
+        padding-left: 30px;
+    }
+    .glitch {
+        font-size: 3rem;
+        letter-spacing: 0.3rem;
+        z-index: 20;
+        padding: 0px;
+        line-height: 75px;
+    }
+    .glitch::after {
+        text-align: left;
+        padding: 0px;
+    }
+    .header-left h3 {
+        text-align: left;
+        font-size: 18px;
+        z-index: 20;
+        padding: 0px;
+    }
+    .download-btn {
+        font-weight: 400;
+        font-size: 9px;
+        letter-spacing: 1px;
+        padding: 20px;
+        margin: 30px 0px;
+    }
+    .logo {
+        height: 60px;
+        padding-right: 0px;
+    }
+    .logo-text,
+    .logo-text:hover {
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    .nav-hamburger {
+        margin: 27px 16px auto 40px;
+        display: block;
+    }
+    .mobile-nav ul {
+        margin-top: 0px;
+    }
+    .mobile-nav ul>li {
+        margin: 35px 0px;
+    }
+    .menu li {
+        margin: 0px;
+    }
+    /* ABOUT ========================================= */
+    .about {
+        padding: 100px 30px 0px 30px;
+        margin-top: 50px;
+    }
+    .about-area-left {
+        padding: 0px;
+    }
+    .about h1 {
+        font-size: 6rem;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 15px;
+    }
+    .about p {
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 20px;
+        text-align: center;
+        padding: 0px 15px;
+    }
+    /* FOOTER ====================================== */
+    .footer h1 {
+        font-size: 6rem;
+        margin-bottom: 40px;
+    }
+    .footer h3 {
+        font-size: 1.8rem;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (min-width: 920px) and (max-width: 1064px) {
+    .glitch {
+        font-size: 4rem;
+        letter-spacing: 0.3rem;
+        z-index: 20;
+        padding: 0px;
+        line-height: 75px;
+    }
+    .glitch::after {
+        text-align: left;
+        padding: 0px;
+    }
+}

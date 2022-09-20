@@ -1,0 +1,36 @@
+.about {
+    padding: 150px 100px 100px 100px;
+    margin-top: 50px;
+}
+
+.about-area-left {
+    padding-left: 50px;
+}
+
+.about h1 {
+    font-family: var(--secondary-font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6rem;
+    text-align: left;
+    text-transform: uppercase;
+    color: #00C2FF;
+    margin-bottom: 60px;
+}
+
+.about p {
+    font-family: var(--primary-font-family);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 40px;
+    text-transform: none;
+    color: var(--primary-font-color);
+    letter-spacing: 1.5px;
+}
+
+.about img {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+}

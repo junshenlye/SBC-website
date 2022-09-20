@@ -1,0 +1,131 @@
+/* FONTS IMPORT=====================================================================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+@font-face {
+    font-family: 'Exodar-Outline';
+    src: url('../assets/fonts/ExodarOutline.woff2') format('woff2'), url('../assets/fonts/ExodarOutline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Orbitron';
+    src: url('../assets/fonts/Orbitron-Regular.woff2') format('woff2'), url('../assets/fonts/Orbitron-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Voyager';
+    src: url('../assets/fonts/Voyager-Heavy.woff2') format('woff2'), url('../assets/fonts/Voyager-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* VARIABLES========================================================================================*/
+
+:root {
+    --primary-theme-color: #0092C0;
+    --secondary-theme-color: #000000;
+    --buttons-color: rgba(217, 217, 217, 0.2);
+    --primary-font-color: #ffffff;
+    --primary-font-family: 'Orbitron', 'sans-serif';
+    --secondary-font-family: 'Exodar-Outline', 'sans-serif';
+    --logo-font-family: 'Voyager', 'sans-serif';
+}
+
+
+/* STYLE SHEETS IMPORT=====================================================================================*/
+
+@import url('../modules/header/style.css');
+@import url('../modules/about/style.css');
+@import url('../modules/roadmap/style.css');
+@import url('../modules/teamMembers/style.css');
+@import url('../modules/faq/style.css');
+@import url('../modules/footer/style.css');
+@import url('../components/MobileNavigation/style.css');
+@import url('../components/TopNavigation/style.css');
+
+/* DEFAULT STYLES========================================================================================*/
+
+html,
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: var(--secondary-theme-color);
+    overflow: hidden;
+}
+
+.container-fluid {
+    padding: 0 !important;
+}
+
+.highlighted-font {
+    color: var(--secondary-theme-color);
+}
+
+
+/* TEXT SELECTION STYLES========================================================================================*/
+
+::-moz-selection {
+    /* Code for Firefox */
+    color: var(--primary-font-color);
+    background: var(--primary-theme-color);
+}
+
+::selection {
+    color: var(--primary-font-color);
+    background: var(--primary-theme-color);
+}
+
+
+/* SCROLL BAR STYLES========================================================================================*/
+
+::-webkit-scrollbar {
+    width: 15px;
+    background-color: var(--secondary-theme-color);
+}
+
+
+/*Scroll line styles*/
+
+::-webkit-scrollbar-track {
+    border-radius: 0px;
+}
+
+
+/*Scroll bar styles*/
+
+::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    background-color: var(--primary-theme-color);
+}
+
+
+/* ANIMATION DELAYS========================================================================================*/
+
+.delay-1 {
+    animation-delay: .45s;
+}
+
+.delay-2 {
+    animation-delay: .5s;
+}
+
+.delay-3 {
+    animation-delay: .75s;
+}
+
+.delay-4 {
+    animation-delay: 1s;
+}

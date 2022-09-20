@@ -1,0 +1,87 @@
+/* FOOTER==============================================================================================*/
+
+.footer {
+    text-align: center;
+    background-color: var(--primary-theme-color);
+    clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);
+    padding-top: 15px;
+}
+
+.footer-top {
+    height: 400px;
+    margin: 200px auto 60px auto;
+}
+
+.footer h1 {
+    font-family: var(--secondary-font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: var(--primary-font-color);
+    margin: 0px auto 60px auto;
+    overflow-y: hidden;
+}
+
+.footer h3 {
+    font-family: var(--primary-font-family);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: var(--primary-font-color);
+    margin: 0px auto 0px auto;
+    overflow-y: hidden;
+}
+
+.footer-social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 286px;
+    height: 95px;
+    font-family: var(--primary-font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--primary-font-color);
+    background: var(--buttons-color);
+    border-radius: 25px;
+    margin: 20px;
+    transition: all 500ms ease-in-out;
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+}
+
+.footer-social-link:hover {
+    background: rgba(228, 228, 228, 0.548);
+    color: var(--secondary-theme-color);
+}
+
+.footer-social-link i {
+    margin-right: 5px;
+    font-size: 40px;
+}
+
+.footer-bottom {
+    background-color: #222222;
+    text-align: center;
+    color: var(--primary-font-color);
+    height: 70px;
+    margin-top: 120px;
+}
+
+.footer-bottom p {
+    font-family: var(--primary-font-family);
+    margin: 0px;
+    font-size: 10px;
+    font-weight: 500;
+    color: rgb(136, 136, 136);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}

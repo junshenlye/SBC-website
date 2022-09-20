@@ -1,0 +1,135 @@
+/* ROADMAP SECTIONS STYLES========================================================================*/
+
+.roaddmap {
+    padding-top: 95px;
+}
+
+.roaddmap h1 {
+    font-family: var(--secondary-font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #00C2FF;
+}
+
+.container-roadmap {
+    width: 80%;
+    padding: 50px 0;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.container-roadmap:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -1px;
+    width: 2px;
+    height: 100%;
+    background: #CCD1D9;
+    z-index: 1
+}
+
+.timeline-block {
+    width: -webkit-calc(50% + 8px);
+    width: -moz-calc(50% + 8px);
+    width: calc(50% + 8px);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+    clear: both;
+}
+
+.timeline-block-right {
+    float: right;
+}
+
+.timeline-block-left {
+    float: left;
+    direction: rtl
+}
+
+.marker {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 2px solid #F5F7FA;
+    background: #707070;
+    margin-top: 10px;
+    z-index: 9999
+}
+
+.timeline-content {
+    width: 95%;
+    padding: 0 15px;
+    color: #ffffff;
+}
+
+.timeline-content h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: var(--primary-font-family);
+    color: var(--primary-theme-color);
+}
+
+.timeline-content i {
+    font-size: 5rem;
+    font-weight: 500;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.timeline-content img {
+    width: 200px;
+    height: auto;
+}
+
+.timeline-content span {
+    font-size: 15px;
+    color: #d3d3d3;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.timeline-content p {
+    font-size: 14px;
+    word-spacing: 1px;
+    color: var(--primary-font-color);
+    font-family: var(--primary-font-family);
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 768px) {
+    .container-roadmap:before {
+        left: 8px;
+        width: 2px;
+    }
+    .timeline-block {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .timeline-block-right {
+        float: none;
+    }
+    .timeline-block-left {
+        float: none;
+        direction: ltr;
+    }
+}
