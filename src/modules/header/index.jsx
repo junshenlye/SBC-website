@@ -29,7 +29,7 @@ export default function Index() {
                     <div className="col-md-6 header-left">
                         <h1 className="glitch">Space boy club</h1>
                         <h3 data-aos="slide-up">Launching sequence STARTIng 3, 2, 1....</h3>
-                        {<button data-aos="fade" className="download-btn" onClick={() => window.open("https://sbcmint.netlify.app/")}>MINT HERE<i className="fa-solid fa-arrow-right"></i></button>}
+                        {<button data-aos="fade" className="download-btn" onClick={() => window.open("https://www.jpg.store/collection/spaceboyclub")}>JPG.Store<i className="fa-solid fa-arrow-right"></i></button>}
                         {/*<a data-aos="fade" className="download-btn" href="#about">Explorer <i className="fa-solid fa-arrow-right"></i></a>*/}
                     </div>
                     <div className="col-md-6 header-right">

@@ -19,7 +19,7 @@ export default function index() {
                         <div className="timeline-content">
                             <img src={r1} alt='' data-aos="flip-right"/>
                             <h3 data-aos="fade">25%</h3>
-                            <p data-aos="fade-right">• Successfully release 3333 SpaceBoy<br></br><br></br>
+                            <p data-aos="fade-right">• Successfully release 500 Space Boys<br></br><br></br>
                             </p>
                         </div>
                     </div>
@@ -31,7 +31,7 @@ export default function index() {
                         <div className="timeline-content">
                             <img src={r2} alt='' data-aos="flip-right"/>
                             <h3 data-aos="fade">50%</h3>
-                            <p data-aos="fade-left">• SBC Token of Appreciation Distribution<br></br><br></br><br></br></p>
+                            <p data-aos="fade-left">• Utility low-fidelity prototype<br></br><br></br><br></br></p>
                         </div>
                     </div>
 
@@ -42,7 +42,7 @@ export default function index() {
                         <div className="timeline-content">
                             <img src={r3} alt='' data-aos="flip-right"/>
                             <h3 data-aos="fade">75%</h3>
-                            <p data-aos="fade-right">• Youtube Channel Documentary<br></br><br></br></p>
+                            <p data-aos="fade-right">• Beta testing<br></br><br></br></p>
                         </div>
                     </div>
 
@@ -53,7 +53,7 @@ export default function index() {
                         <div className="timeline-content">
                             <img src={r4} alt='' data-aos="flip-right"/>
                             <h3 data-aos="fade">100%</h3>
-                            <p data-aos="fade-left">• ??? SpaceFriends NFT Distribution<br></br><br></br></p>
+                            <p data-aos="fade-left">• Utility Delivery<br></br><br></br></p>
                         </div>
                     </div>
                 </div>

@@ -36,23 +36,7 @@ export default function index() {
                             itemProp="acceptedAnswer"
                             itemType="https://schema.org/Answer"
                         >
-                            <p>3333</p>
-                        </div>
-                    </details>
-
-                    <details
-                        itemScope
-                        itemProp="mainEntity"
-                        itemType="https://schema.org/Question"
-                    >
-                        <summary data-aos="slide-right" itemProp="name">What wallet is advisable to use for minting?</summary>
-                        <div
-                            className="details-expanded"
-                            itemScope
-                            itemProp="acceptedAnswer"
-                            itemType="https://schema.org/Answer"
-                        >
-                            <p>We are launching on Cardano blockchain, you can use wallets such as Nami, Deadalus, Yoroi, CCvault etc. do not send ADA from any exchange (Binance, Coinbase, FTX etc.) or your funds will be lost.</p>
+                            <p>500</p>
                         </div>
                     </details>
 
@@ -68,7 +52,7 @@ export default function index() {
                             itemProp="acceptedAnswer"
                             itemType="https://schema.org/Answer"
                         >
-                            <p>Yes, there will be air drops in the future and other planned utilities. More details TBC.</p>
+                            <p>Nope, just a PFP designed by a group of friends. Just enjoy the artwork, utility might be asscoiated with space boys.... Stay tuned</p>
                         </div>
                     </details>
 
@@ -84,7 +68,7 @@ export default function index() {
                             itemProp="acceptedAnswer"
                             itemType="https://schema.org/Answer"
                         >
-                            <p>Public Mint is on 10 September 2022 08.00 UTC | After the mint is over, you can trade on secondary market platforms.</p>
+                            <p>Minting is closed, You may purchase our Spaceboys from the secondary Market.</p>
                         </div>
                     </details>
 
@@ -100,7 +84,7 @@ export default function index() {
                             itemProp="acceptedAnswer"
                             itemType="https://schema.org/Answer"
                         >
-                            <p>Yes it will be 5% of the resale price. Royalties will go towards the further development of the project</p>
+                            <p>Yes it will be 5% of the resale price. Royalties will go towards the artist and development of the project</p>
                         </div>
                     </details>
                 </div>
